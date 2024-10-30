@@ -17,5 +17,6 @@
 - THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## Resources
+- https://www.npmjs.com/package/mongoose 
 
 ## Video Link
