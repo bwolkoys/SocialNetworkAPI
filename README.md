@@ -18,5 +18,6 @@
 
 ## Resources
 - https://www.npmjs.com/package/mongoose 
+- https://expressjs.com/en/starter/installing.html
 
 ## Video Link
