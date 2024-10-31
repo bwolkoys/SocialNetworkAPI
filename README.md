@@ -19,5 +19,11 @@
 ## Resources
 - https://www.npmjs.com/package/mongoose 
 - https://expressjs.com/en/starter/installing.html
+- findOneAndUpdate: https://mongoosejs.com/docs/tutorials/findoneandupdate.html 
+- findById: https://www.geeksforgeeks.org/mongoose-findbyid-function/ 
+- create(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create 
+- more queries resources: https://mongoosejs.com/docs/queries.html 
+- $addToSet: https://www.mongodb.com/docs/manual/reference/operator/update/addToSet/ 
+- $pull: https://www.mongodb.com/docs/manual/reference/operator/update/pull/ 
 
 ## Video Link
