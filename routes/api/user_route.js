@@ -2,7 +2,7 @@
 const router = require('express').Router();
 //importing controller functions from the user_controller file
 const {
-  getAllUser,
+  getAllUsers,
   getUserById,
   createUser,
   updateUser,
@@ -13,7 +13,7 @@ const {
 
 // /api/users
 // get route to get all users, post route to create a user
-router.route('/').get(getAllUser).post(createUser);
+router.route('/').get(getAllUsers).post(createUser);
 
 // /api/users/:id
 //get route ot get users by ID, then calls update user and then to delete a user

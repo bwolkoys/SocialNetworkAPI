@@ -1,4 +1,4 @@
-//getAllUser, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend
+//getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, removeFriend
 
 const { Thought, User } = require("../models");
 
