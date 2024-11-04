@@ -16,11 +16,7 @@ router.route("/").get(getAllThought).post(createThought);
 
 // /api/thoughts/:id
 // gets thoughts by id, updates a thought and deletes a thought
-router
-  .route("/:id")
-  .get(getThoughtById)
-  .put(updateThought)
-  .delete(deleteThought);
+router.route("/:id").get(getThoughtById).put(updateThought).delete(deleteThought);
 
 // /api/thoughts/:thoughtId/reactions
 // this adds a reaction to a thought through a thoughtId
