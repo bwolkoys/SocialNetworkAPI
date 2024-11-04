@@ -27,3 +27,5 @@
 - $pull: https://www.mongodb.com/docs/manual/reference/operator/update/pull/ 
 
 ## Video Link
+
+- https://www.loom.com/share/8ed640e0f65f44749b7189a77974aea4?sid=27f572ef-5f95-4330-8f77-ac5bc628a3f7 
