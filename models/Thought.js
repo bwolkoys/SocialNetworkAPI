@@ -54,13 +54,13 @@ const ThoughtSchema = new Schema(
     reactions: [ReactionSchema],
 },
 
-    {
-        toJSON: {
-            virtuals: true, //allows properties that arent stored in the database to be included
-            getters: true //allows you to define how a property should be returned when calling for it
-        },
-        id: false
-    }
+    // {
+    //     toJSON: {
+    //         virtuals: true, //allows properties that arent stored in the database to be included
+    //         getters: true //allows you to define how a property should be returned when calling for it
+    //     },
+    //     id: false
+    // }
 );
 
 ThoughtSchema.virtual('reactionCount').get(function () {

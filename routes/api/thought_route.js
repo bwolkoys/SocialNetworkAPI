@@ -12,11 +12,13 @@ const {
 
 // /api/thoughts
 //route gets all thoughts and sends request to create a new thought
-router.route("/").get(getAllThought).post(createThought);
+router.route("/").get(getAllThought);
+
+router.route("/:userId").post(createThought);
 
 // /api/thoughts/:id
 // gets thoughts by id, updates a thought and deletes a thought
-router.route("/:id").get(getThoughtById).put(updateThought).delete(deleteThought);
+router.route("/:thoughtId").get(getThoughtById).put(updateThought).delete(deleteThought);
 
 // /api/thoughts/:thoughtId/reactions
 // this adds a reaction to a thought through a thoughtId

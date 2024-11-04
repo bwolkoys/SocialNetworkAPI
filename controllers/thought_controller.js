@@ -8,9 +8,9 @@ module.exports = {
             //retrieves all thoughts
             const thought = await Thought.find();
             //sends the thoughts retrieved as a json response
-            res.json(thought); 
+            res.status(200).json(thought); 
           } catch (err) {
-            res.status(500).json(err);
+            res.json(err);
           }
     },
 
@@ -31,10 +31,11 @@ module.exports = {
         try {
             //creates a new thought with the data provided
             const newThought = await Thought.create(req.body);
+            await User.findByIdAndUpdate(req.params.userId, {$push: {thoughts: newThought._id}})
             //sends the thought created as a json response
             res.status(201).json(newThought);
           } catch (err) {
-            res.status(400).json(err);
+            res.json(err);
           }
     },
 
