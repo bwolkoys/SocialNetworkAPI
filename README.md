@@ -1,5 +1,8 @@
 # Social Network API
 
+## Description
+The project is an API for a social Newtowk application. It allows users to add freinds to their list, create thoughts and delete them as well as add and delete reactions. It also allowsx your to create users, deelete them and update them. Enjoy the walk through! 
+
 ## User Story
 - AS A social media startup
 - I WANT an API for my social network that uses a NoSQL database
